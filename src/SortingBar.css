@@ -1,0 +1,47 @@
+.sorting-bar {
+    position: relative; /* Добавляем позиционирование */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 20px; /* Ширина столбца */
+    margin: 2px; /* Между столбцами */
+}
+
+.value-text {
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    text-align: center;
+}
+
+.sorting-visualizer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.button-container button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-out;
+}
+
+.button-container button:hover {
+    background-color: #0157a4;
+}

@@ -1,0 +1,43 @@
+/* Define colours for highlighted elements */
+.sorting-bar {
+    margin: 0 2px;
+    width: 20px;
+    transition: height 0.2s ease-out, background-colour 0.2s ease-out;
+}
+
+.sorting-bar.highlight {
+    background-colour: #ff4136;
+}
+
+.sorting-bar.swapped {
+    background-colour: #2ecc40;
+}
+
+.sorting-visualizer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.button-container button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-colour: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-colour 0.2s ease-out;
+}
+
+.button-container button:hover {
+    background-color: #45a049;
+}
