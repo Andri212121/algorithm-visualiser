@@ -1,13 +1,13 @@
 .sorting-bar {
-    position: relative; /* Добавляем позиционирование */
+    position: relative;
     display: flex;
     align-items: end;
     justify-content: center;
     color: white;
     font-size: 12px;
     font-weight: bold;
-    width: 20px; /* Ширина столбца */
-    margin: 2px; /* Между столбцами */
+    width: 20px;
+    margin: 2px;
 }
 
 .value-text {
